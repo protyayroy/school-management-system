@@ -3,25 +3,39 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav flex-column s_nav">
             <li class="nav-item active">
-                <a class="nav-link" href="t_dash.php">Profile</a>
+                <a class="nav-link 
+                <?php if ( $active  == "profile") { echo "active_nav"; } ?>
+                " href="t_dash.php">Profile</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="handled-class.php">Handled Class</a>
+                <a class="nav-link
+                <?php if ( $active  == "handled_class") { echo "active_nav"; } ?>
+                " href="handled-class.php">Handled Class</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="student.php">Students</a>
+                <a class="nav-link
+                <?php if ( $active  == "student") { echo "active_nav"; } ?>
+                " href="student.php">Students</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="view-student.php" target="_blank">View Student</a>
+                <a class="nav-link
+                <?php if ( $active  == "view_student") { echo "active_nav"; } ?>
+                " href="view-student.php" target="_blank">View Student</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="view-exam-time.php">View Exam</a>
+                <a class="nav-link
+                <?php if ( $active  == "view_exam") { echo "active_nav"; } ?>
+                " href="view-exam-time.php">View Exam</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="add-mark.php">Add Marks</a>
+                <a class="nav-link
+                <?php if ( $active  == "add_mark") { echo "active_nav"; } ?>
+                " href="add-mark.php">Add Marks</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="view-mark.php">View Marks</a>
+                <a class="nav-link
+                <?php if ( $active  == "view_mark") { echo "active_nav"; } ?>
+                " href="view-mark.php">View Marks</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="t_logout.php">Logout</a>
