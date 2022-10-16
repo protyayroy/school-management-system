@@ -14,9 +14,9 @@ body {
     text-align: center;
     color: #fff;
 }
-.navbar-brand,.nav-item .nav-link{
+/* .navbar-brand,.nav-item .nav-link{
     color: #fff !important;
-}
+} */
 .bg_img{
     background: url('../bg_image/1206101.jpg');
     width: 100%;
@@ -63,6 +63,8 @@ input:focus{
 }
 .s_nav .nav-item .nav-link{
     color: blueviolet !important;
+    font-size: 16px;
+    font-weight: 600;
 }
 .s_nav .nav-item .nav-link:hover{
     background: #f1f1f1;
@@ -100,5 +102,16 @@ textarea {
 	overflow: auto;
 	resize: none !important;
 }
-
+.s_nav .nav-item .active_nav{
+    background: #5a7e00;
+    color: rgb(0, 0, 0) !important;
+}
+.t_menu .nav-item .nav-link {
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    color: #fff;
+}
+.index li a {
+    font-weight: 600;
+}
 
